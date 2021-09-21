@@ -5,14 +5,13 @@ name = "pypi"
 
 [packages]
 click = "*"
-isort = {extras = ["colors"], version = "*"}
 
 [dev-packages]
 black = "*"
 flake8 = "*"
-isort = "*"
 mypy = "*"
 pre-commit = "*"
+isort = {extras = ["colors"], version = "*"}
 
 [requires]
 python_version = "3.8"
